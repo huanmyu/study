@@ -1,0 +1,38 @@
+plugins {
+    id 'org.springframework.boot' version '1.5.8.RELEASE'
+    id 'java'
+}
+
+group 'com.huanyu'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter")
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-starter-websocket")
+    compile("org.springframework.boot:spring-boot-starter-json")
+    compile("org.springframework.boot:spring-boot-starter-aop")
+    compile("org.springframework.boot:spring-boot-starter-batch")
+    compile("org.springframework.boot:spring-boot-starter-cache")
+    compile("org.springframework.boot:spring-boot-starter-data-elasticsearch")
+    compile("net.java.dev.jna:jna")
+    compile("org.springframework.boot:spring-boot-starter-data-mongodb")
+    compile("org.springframework.boot:spring-boot-starter-data-jpa")
+    compile("org.springframework.boot:spring-boot-starter-validation")
+    compile("mysql:mysql-connector-java")
+    compile("org.springframework.boot:spring-boot-starter-data-redis")
+    compile("org.springframework.boot:spring-boot-starter-mail")
+    compile("org.apache.velocity:velocity-engine-core:2.0")
+    compile("org.springframework.boot:spring-boot-starter-data-quartz")
+    compile("org.springframework.boot:spring-boot-starter-data-integration")
+    compile("org.springframework.boot:spring-boot-starter-data-logging")
+    compile("org.springframework.boot:spring-boot-starter-data-actuator")
+    compile("org.springframework.boot:spring-boot-devtools")
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+}

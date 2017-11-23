@@ -1,0 +1,8 @@
+<html>
+<body>
+    <h3>您好！</h3>
+    <div>
+        感谢您注册Continuous Study平台，请点击以下链接完成注册：<a href="${activeUrl}">${activeUrl}</a>
+    </div>
+</body>
+</html>
